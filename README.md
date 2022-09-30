@@ -11,4 +11,4 @@
 
 ## Yarn package
 
-- `yarn add -D gray-matter`
+- `yarn add gray-matter`
