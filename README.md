@@ -12,3 +12,4 @@
 ## Yarn package
 
 - `yarn add gray-matter`
+- `yarn add marked`
