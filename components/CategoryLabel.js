@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default function CategoryLabel({ children }) {
   const colorKey = {
@@ -7,7 +7,7 @@ export default function CategoryLabel({ children }) {
     Python: 'green',
     PHP: 'purple',
     Ruby: 'red',
-  };
+  }
 
   return (
     <div
@@ -15,5 +15,5 @@ export default function CategoryLabel({ children }) {
     >
       <Link href={`/blog/category/${children.toLowerCase()}`}>{children}</Link>
     </div>
-  );
+  )
 }

@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
   return (
@@ -25,5 +25,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  );
+  )
 }

@@ -12,5 +12,5 @@
 ## Yarn package
 
 - `yarn add gray-matter`
-- `yarn add marked`
+- `yarn add marked husky`
 - ``

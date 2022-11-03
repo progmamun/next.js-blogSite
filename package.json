@@ -1,25 +1,26 @@
 {
-  "name": "next-blog-site",
+  "name": "devspace-blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "cache-posts": "node scripts/cache.js",
+    "prepare": "husky install"
   },
   "dependencies": {
-    "marked": "^4.1.0",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "gray-matter": "^4.0.3",
+    "marked": "^2.0.4",
+    "next": "10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1",
-    "gray-matter": "^4.0.3",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
+    "autoprefixer": "^10.2.5",
+    "husky": "^6.0.0",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
   }
 }

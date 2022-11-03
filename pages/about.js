@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout'
 
 export default function AboutPage() {
   return (
@@ -15,5 +15,5 @@ export default function AboutPage() {
         </p>
       </div>
     </Layout>
-  );
+  )
 }
